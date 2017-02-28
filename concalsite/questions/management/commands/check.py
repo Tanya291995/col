@@ -46,7 +46,6 @@ class Command(BaseCommand):
 
             question = str(i+1) + ") " + president[0] + " является главой государства " + country_name[0] + "?"
             print(question)
-            print("Правильный ответ :", right_answer)
             user_answer = input('Введите ваш ответ:')
             user_conf = int(input('Введите вашу уверенность:'))
 
